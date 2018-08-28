@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>Chef Server ACL</title>
+	<title>Chef Server ACLs</title>
 
 	<link rel="stylesheet" href="css/reveal.css">
 	<link rel="stylesheet" href="css/theme/sky.css">
@@ -28,10 +28,12 @@
 		<div class="slides">
 			<section data-markdown="00_title.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="utf-8">
 			</section>
-			<section data-markdown="01_chef_slides.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="utf-8">
+			<section data-markdown="01_authentication.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="utf-8">
 			</section>
-
-
+			<section data-markdown="02_authorization.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="utf-8">
+			</section>
+			<section data-markdown="03_knife_acl_plugin.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="utf-8">
+			</section>
 		</div>
 	</div>
 
@@ -43,9 +45,9 @@
 			controls: true,
 			progress: true,
 			history: true,
-			margin: 0.1,
+			margin: 0.02,
 			minScale: 0.2,
-			maxScale: 1.5,
+			maxScale: 1.0,
 			dependencies: [{
 					src: 'plugin/markdown/marked.js'
 				},
